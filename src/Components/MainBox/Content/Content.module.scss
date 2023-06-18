@@ -1,0 +1,36 @@
+.contentBox {
+	margin-top: 2.4rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 1.6rem;
+}
+.contentItem {
+	box-shadow: 0px 5px 20px rgba(#128bb3, 0.2);
+	width: calc((100% / 3) - 1.6rem);
+	min-height: 30rem;
+	padding: 1.6rem;
+}
+.contentItemTitle {
+	font-size: 2.4rem;
+	margin-bottom: 1.6rem;
+	border-bottom: 1px solid darken(#128bb3, 0.5);
+	padding-bottom: 0.8rem;
+}
+.itemsList {
+}
+.todo {
+	font-size: 1.8rem;
+	box-shadow: 2px 0px 21px 0px rgba(#128bb3, 0.1),
+		inset 0px 0px 5px 0px rgba(255, 255, 255, 0.1);
+	// background-color: lighten(#1ec4fca8, 0.3);
+	padding: 0.8rem;
+	&:not(:last-of-type) {
+		margin-bottom: 1.6rem;
+	}
+}
+.docIcon {
+	margin-right: 1.2rem;
+	height: 1.8rem;
+	// border: 1px solid #000;
+}
